@@ -1,0 +1,182 @@
+*{
+margin:0;
+padding:0;
+box-sizing:boder-box;
+}
+html,body{
+height:100%;
+width:100%;
+font-family: gilroy;
+}
+#main{
+position:absolute;
+overflow-x: hidden;
+}
+#nav{
+    height: 8vh;
+    
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+#nav img{
+    height: 15vh;
+}
+#nav h1{
+    padding: 0 5vh;
+}
+#navp1{
+    padding-right: 5vh;
+    width: 30vw;
+    justify-content: space-around;
+    /* background-color: red; */
+    display: flex;
+}
+#navp1 a{
+    text-decoration: none;
+    color: black;
+    font-family: gilroy;
+}
+#page1{
+    height:92vh;
+    width: 100vw;
+    background-color: red;
+}
+#cnt-us{
+    height:50vh;
+    width:100vw;
+    background-color: rgb(120, 119, 119);
+}
+#cnt-us h1{
+    position: absolute;
+    padding: 3vh 0 0 3vh;
+}
+#lastpage{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+#lastpage h1{
+    margin-top: 10%;
+    font-size: 5vh;
+    font-family: gilroy;
+
+}
+#contact-us{
+    height: 80vh;
+    width: 80vw;
+    /* background-color: blue; */
+    border-radius: 25px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    display: flex;
+}
+#cntp1{
+        position: relative;
+        height: inherit;
+        overflow: hidden;
+        width: 35vw;
+        background-color: rebeccapurple;
+        border-radius: 0 25px 25px 0;
+}
+#overlay h2{
+   margin-left: -40%;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10vh 5vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 8vh;
+}
+#overlay p{
+    width: 50%;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    height: 2.5vh;
+    width: fit-content;
+}
+.icons i{
+    color:#f8939f;
+    font-size: 2vh;
+}
+#overlay #social{
+    height: 5vh;
+    /* background-color: red; */
+    display: flex;
+    gap: 5vh;
+    margin-left: -3.5%;
+}
+#overlay #social i{
+    font-size: 2.5vh;
+    padding: 15px;
+
+}
+#social i:hover{
+    cursor: pointer;
+    color: white;
+    background-color:#f8939f;
+    border-radius: 50%;
+   
+}
+#circle1{
+    height: 15vh;
+    width: 15vh;
+    background-color: rgba(128, 0, 128, 0.438);
+    position: absolute;
+    top: 65%;
+    right: 15%;
+    border-radius: 50%;
+    z-index: 9;
+}
+#circle2{
+    height: 35vh;
+    width: 35vh;
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    right: -18%;
+    background-color: #f8939f;
+}
+#cntp2{
+    height: inherit;
+    width:45vw;
+    background-color:whitesmoke;
+    padding: 8vh 5vw;
+}
+input{
+    border: none;
+    background-color: transparent;
+    padding: 12px 20px;
+    outline: none;
+    font-size: 2vh;
+}
+#cntp2 #name{
+    width: 25vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    /* font-family: cooper; */
+    /* background-color: red; */
+}
+#cntp2 #iname{
+    margin-left: -2.5%;
+    width: 33vw;
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+}
